@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juste KOCOU-portfolio— IoT et-Systèmes embarqués-BlodoCar</title>
+  <meta name="description" content="Portfolio de Juste KOCOU, technicien supérieur en Génie Électrique et Informatique, spécialiste IoT, systèmes embarqués et science des données. Co-fondateur & COO de BlodoCar (Bénin).">
+  <meta name="theme-color" content="#6b4a12">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <header class="header" id="header">
+    <a href="#accueil" class="logo" aria-label="Accueil">JK<span>.</span></a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#apropos">À propos</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#engagement">Engagement</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Changer de thème">🌙</button>
+      <button class="icon-btn burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Bonjour, je suis</p>
+          <h1>Juste <em>KOCOU</em></h1>
+          <p class="typing"><span id="typed"></span><span class="cursor">|</span></p>
+          <p class="lead">Technicien supérieur en Génie Électrique et Informatique, je conçois des systèmes IoT avec intégration de l'IA au service de problèmes concrets en Afrique et notament en Agritech. Co-fondateur &amp; COO de <strong>BlodoCar</strong>.</p>
+          <div class="hero-btns">
+            <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+            <a href="#contact" class="btn btn-ghost">Me contacter</a>
+            <a href="https://www.linkedin.com/in/juste-kocou/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn ↗</a>
+            <a href="https://github.com/Justekc24" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <img src="photo.jpg" alt="Portrait de Juste KOCOU" onerror="this.remove();document.getElementById('initials').style.display='grid'">
+            <div class="initials" id="initials">JK</div>
+          </div>
+          <div class="badge b1">⚡ IoT &amp; Embarqué</div>
+          <div class="badge b2">🚀 Start-up</div>
+          <div class="badge b3">📊 Data</div>
+        </div>
+      </div>
+
+      <div class="container stats reveal">
+        <div class="stat"><strong data-count="4">0</strong><span>Projets majeurs<br>IoT, data &amp; start-up</span></div>
+        <div class="stat"><strong data-count="6" data-suffix=" ans">0</strong><span>de pratique technique<br>depuis 2020</span></div>
+        <div class="stat"><strong data-count="7">0</strong><span>Rôles de leadership<br>et d'engagement</span></div>
+        <div class="stat"><strong data-count="11" data-suffix="+">0</strong><span>Certificats<br>et formations</span></div>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="section" id="apropos">
+      <div class="container">
+        <h2 class="section-title reveal"><span>01</span> À propos</h2>
+        <div class="about-grid">
+          <div class="reveal">
+            <p>Je m'appelle Juste,béninois de 21 ans. Diplômé d'une <strong>Licence professionnelle en Génie Électrique et Informatique</strong> de l'INSTI de Lokossa, je me spécialise dans l'<strong>IoT</strong>, les <strong>systèmes embarqués</strong> et la <strong>science des données</strong>.</p>
+            <p>notament l'analyse des Données, co-fondateur de la start-up BlodoCar et du réseau FIERI, mentor académique, j'aime transformer un problème local en solution technique et en modèle économique viable.</p>
+            <p>Mon objectif : construire des produits utiles qui relient le matériel, les données et l'intelligence artificielle.</p>
+          </div>
+          <ul class="facts reveal">
+            <li><span>📍</span> Abomey-Calavi, Bénin</li>
+            <li><span>🎓</span> Licence pro. Génie Électrique &amp; Informatique</li>
+            <li><span>🗣️</span> Français (natif) · Anglais B1</li>
+            <li><span>🔧</span> Électrotechnique, électronique &amp; IoT</li>
+            <li><span>✉️</span> <a href="mailto:justekocou21@gmail.com">justekocou21@gmail.com</a></li>
+            <li><span>📞</span> <a href="tel:+2290152455117">+229 01 52 45 51 17</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARCOURS -->
+    <section class="section alt" id="parcours">
+      <div class="container">
+        <h2 class="section-title reveal"><span>02</span> Parcours</h2>
+        <div class="tabs reveal" role="tablist">
+          <button class="tab active" data-tab="exp" role="tab">Expériences</button>
+          <button class="tab" data-tab="edu" role="tab">Formation</button>
+        </div>
+
+        <div class="tabpanel active" id="tab-exp">
+          <div class="timeline">
+            <article class="tl-item reveal">
+              <span class="tl-date">Sept. 2026 — Présent</span>
+              <h3>Co-fondateur &amp; Chief Operating Officer</h3>
+              <p class="tl-org">BlodoCar · Cotonou, Bénin · <a href="https://www.blodocar.com/" target="_blank" rel="noopener">blodocar.com ↗</a></p>
+              <ul>
+                <li>Start-up cocréée pour la digitalisation et la sécurisation du marché des véhicules d'occasion, issue du bootcamp Future Studio.</li>
+                <li>Conception du modèle économique : rapports de diagnostic technique automobile à bas coût, valables 24 h, pour éliminer les vices cachés avant achat.</li>
+              </ul>
+            </article>
+            <article class="tl-item reveal">
+              <span class="tl-date">Nov. 2025 — Présent</span>
+              <h3>Membre &amp; fondateur — FIERI</h3>
+              <p class="tl-org">Front International des Étudiants et Chercheurs pour la Recherche et l'Innovation, Bénin ·  <a href="https://fieri.pythonanywhere.com" target="_blank" rel="noopener">fieri.com ↗</a></p>
+              <ul>
+                <li>Co-fondation d'un réseau international de jeunes talents scientifiques dédié à la recherche, à l'innovation et à l'entrepreneuriat.</li>
+                <li>Coordination du pôle Innovation technologique et Entrepreneuriat.</li>
+              </ul>
+            </article>
+            <article class="tl-item reveal">
+              <span class="tl-date">Mars  — Aout 2026</span>
+              <h3>Responsable IoT &amp; Systèmes embarqués — SmartGarden</h3>
+              <p class="tl-org">SafiGroup-Incubateur · Abidjan (Côte d'Ivoire), à distance depuis le Bénin</p>
+              <ul>
+                <li>Architecture matérielle du projet de serre intelligente.</li>
+                <li>Devis et achat chez YoupiLab : capteurs, microcontrôleurs et actionneurs.</li>
+                <li>Conception, routage et gravure du circuit imprimé (PCB), puis exportation vers Abidjan.</li>
+              </ul>
+            </article>
+            <article class="tl-item reveal">
+              <span class="tl-date">Mars — Juin 2026</span>
+              <h3>Stagiaire en IoT et Systèmes embarqués</h3>
+              <p class="tl-org">YoupiLab · Calavi-Togoudo, Bénin · <a href="https://youpilab.com" target="_blank" rel="noopener">youpilab.com ↗</a></p>
+              <ul>
+                <li>Stage académique dans une entreprise spécialisée en systèmes embarqués.</li>
+                <li>Coordination de tâches hebdomadaires de prototypage dédiées aux stagiaires.</li>
+                <li>Programmation de microcontrôleurs, installation solaire et caméras connectées V380 Pro.</li>
+              </ul>
+            </article>
+            <article class="tl-item reveal">
+              <span class="tl-date">Juil. — Août 2025</span>
+              <h3>Stagiaire en électronique embarquée &amp; IoT</h3>
+              <p class="tl-org">YoupiLab · Godomey, Bénin</p>
+              <ul>
+                <li>Conception de systèmes embarqués et installation IoT.</li>
+                <li>Réalisation de circuits imprimés (PCB).</li>
+              </ul>
+            </article>
+            <article class="tl-item reveal">
+              <span class="tl-date">Juil. — Août 2024</span>
+              <h3>Stagiaire électrotechnicien</h3>
+              <p class="tl-org">Compagnie Béninoise de Textile (CBT) · Lokossa, Bénin</p>
+              <ul>
+                <li>Maintenance industrielle et installation d'éclairage de bâtiment.</li>
+                <li>Graissage des moteurs et rembobinage des enroulements des brasseurs et moteurs électriques.</li>
+                <li>Cabine de surveillance du réseau électrique.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div class="tabpanel" id="tab-edu">
+          <div class="timeline">
+            <article class="tl-item reveal">
+              <span class="tl-date">2023 — 2026</span>
+              <h3>Licence professionnelle en Génie Électrique et Informatique</h3>
+              <p class="tl-org">INSTI — Institut National Supérieur de Technologies Industrielles · Lokossa, Bénin</p>
+              <ul>
+                <li>Certificat d'excellence de leadership : 2 mandats consécutifs en tant que Responsable de classe.</li>
+                <li>Mémoire : système IoT de monitoring des eaux du fleuve Mono pour prédire, grâce à l'IA, le risque de prolifération des plantes envahissantes.</li>
+                <li>Mention Excellente du jury.</li>
+              </ul>
+            </article>
+            <article class="tl-item reveal">
+              <span class="tl-date">2020 — 2023</span>
+              <h3>Baccalauréat F3 &amp; Diplôme de technicien DT/EL</h3>
+              <p class="tl-org">Lycée technique de Pobè · Filière Électrotechnique · Bénin</p>
+              <ul>
+                <li>Cursus de 3 ans en Électrotechnique : baccalauréat F3 et diplôme de technicien (DT/EL).</li>
+                <li>Admission à l'université sur sélection basée sur le BAC (Maths 20, PCT 17).</li>
+              </ul>
+            </article>
+            <article class="tl-item reveal">
+              <span class="tl-date">Oct — Février 2026</span>
+              <h3>Certificat of accomplishment Data Analyst</h3>
+              <p class="tl-org">DataCamp · Online</p>
+              <ul>
+                <li>certiifcat de programmation avancé en Python</li>
+                <li>Realisation des projets sur l'analyse de donnée.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section" id="projets">
+      <div class="container">
+        <h2 class="section-title reveal"><span>03</span> Projets &amp; réalisations</h2>
+        <div class="cards">
+          <article class="card featured reveal">
+            <div class="card-icon">💧</div>
+            <span class="tag-line">Mémoire de licence · IoT + IA</span>
+            <h3>AI Monitor Mono </h3>
+            <p>Conception et réalisation d'un système IoT qui surveille les caractéristiques physico-chimiques des eaux du fleuve Mono afin de prédire, à l'aide d'un modèle d'IA, le risque de prolifération des plantes envahissantes.</p>
+            <div class="chips"><span>Laboratoire de recherche - LaPIT</span><span>IoT</span><span>Capteurs</span><span>Intelligence artificielle</span><span>Environnement</span></div>
+            <a class="link" href="https://ai-monitor-mono-ai-monitor.vercel.app/" target="_blank" rel="noopener">Voir la démo en ligne →</a>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🚗</div>
+            <span class="tag-line">Start-up · Cotonou</span>
+            <h3>BlodoCar</h3>
+            <p>Plateforme de digitalisation et de sécurisation du marché des véhicules d'occasion, avec des rapports de diagnostic technique à bas cout, valables 24 h.</p>
+            <div class="chips"><span>Entrepreneuriat</span><span>Business model</span><span>Opérations</span></div>
+            <a class="link" href="https://www.blodocar.com/" target="_blank" rel="noopener">Visiter le site →</a>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🌱</div>
+            <span class="tag-line">SafiGroup-Incubateur</span>
+            <h3>SmartGarden</h3>
+            <p>Serre intelligente : architecture matérielle, sélection des composants et conception d'un PCB sur mesure livré à l'équipe d'Abidjan.</p>
+            <div class="chips"><span>ESP32</span><span>PCB</span><span>Capteurs</span><span>Actionneurs</span></div>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">📊</div>
+            <span class="tag-line">CANSD 2025 · Data Africa Hub</span>
+            <h3>DataStorm — Risque de crédit</h3>
+            <p>Finaliste national, représentant du Bénin. Analyse du risque de crédit et prédiction de la solvabilité des emprunteurs (performance du modèle : 0,638).</p>
+            <div class="chips"><span>Python</span><span>Pandas</span><span>Machine learning</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="section alt" id="competences">
+      <div class="container">
+        <h2 class="section-title reveal"><span>04</span> Compétences</h2>
+        <div class="skills">
+          <div class="skill-box reveal">
+            <h3>⚡ Électronique &amp; IoT</h3>
+            <div class="chips big"><span>Arduino</span><span>ESP32</span><span>Conception &amp; routage PCB</span><span>Capteurs</span><span>Node-RED</span><span>Programmation de microcontrôleurs</span><span>Installation solaire</span></div>
+          </div>
+          <div class="skill-box reveal">
+            <h3>💻 Programmation</h3>
+            <div class="chips big"><span>Python</span><span>Pandas</span><span>Seaborn</span><span>C++</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span></div>
+          </div>
+          <div class="skill-box reveal">
+            <h3>☁️ Cloud &amp; données</h3>
+            <div class="chips big"><span>Amazon Web Services</span><span>Supervision industrielle</span><span>Science des données</span><span>Analyse de données</span></div>
+          </div>
+          <div class="skill-box reveal">
+            <h3>🤝 Savoir-être &amp; gestion</h3>
+            <div class="chips big"><span>Leadership</span><span>Coordination d'équipe</span><span>Organisation d'événements</span><span>Pitch &amp; business model</span><span>Animation d'ateliers</span></div>
+          </div>
+        </div>
+        <div class="langs reveal">
+          <h3>🌍 Langues</h3>
+          <p><strong>Français</strong> — langue maternelle &nbsp;·&nbsp; <strong>Anglais</strong> — niveau B1 (attestation Altissia), maîtrise de la documentation technique</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISTINCTIONS -->
+    <section class="section" id="distinctions">
+      <div class="container">
+        <h2 class="section-title reveal"><span>05</span> Prix &amp; distinctions</h2>
+        <div class="awards">
+          <div class="award reveal"><span class="award-date">Sept. 2026</span><h3>Certificat de réussite Pré-Entrepreneuriat</h3><p>Future Studio / AEIG — identifier et valider un problème, go-to-market, Business Model Canvas, pitch deck.</p></div>
+          <div class="award reveal"><span class="award-date">Nov. 2025</span><h3>Finaliste national — CANSD</h3><p>Coupe d'Afrique des Nations en Science des Données (Data Africa Hub / DataTour 2025), équipe « DataStorm ».</p></div>
+          <div class="award reveal"><span class="award-date">INSTI Lokossa</span><h3>Certificat d'excellence de leadership</h3><p>Deux mandats consécutifs en tant que Responsable de classe.</p></div>
+          <div class="award reveal"><span class="award-date">Depuis juin 2026</span><h3>EasyEDA Official Certified Campus Ambassador</h3><p>Mandat d'un an à compter du 25 juin 2026, avec JLCPCB.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section alt" id="certifications">
+      <div class="container">
+        <h2 class="section-title reveal"><span>06</span> Certifications &amp; formations</h2>
+        <div class="filters reveal" id="filters">
+          <button class="filter active" data-filter="all">Tous</button>
+          <button class="filter" data-filter="entre">Entrepreneuriat &amp; leadership</button>
+          <button class="filter" data-filter="data">Programmation &amp; data</button>
+          <button class="filter" data-filter="iot">IoT &amp; technologies</button>
+          <button class="filter" data-filter="web">Web &amp; langues</button>
+          <button class="filter" data-filter="acad">Académique</button>
+        </div>
+        <div class="certs" id="certs">
+          <div class="cert" data-cat="entre"><h4>Compétences digitales, entrepreneuriales et littératie financière</h4><p>UA-CIEFFA &amp; ImpactHER</p><small>Octobre 2026</small></div>
+          <div class="cert" data-cat="entre"><h4>Bootcamp Pré-Entrepreneuriat</h4><p>Future Studio / AEIG</p><small>Août – septembre 2026</small></div>
+          <div class="cert" data-cat="entre"><h4>Certificat d'excellence en leadership</h4><p>INSTI</p><small>2 mandats de Responsable de classe</small></div>
+          <div class="cert" data-cat="data"><h4>Python avancé (Advanced Python)</h4><p>DataCamp</p><small>2025</small></div>
+          <div class="cert" data-cat="data"><h4>Data Analyst</h4><p>DataCamp</p><small>Sept. 2025 – févr. 2026</small></div>
+          <div class="cert" data-cat="iot"><h4>Formation en IoT et systèmes embarqués</h4><p>USD</p><small>Certificat</small></div>
+          <div class="cert" data-cat="iot"><h4>Node-RED Academy — Fundamentals</h4><p>Node-RED Academy</p><small>Certificat</small></div>
+          <div class="cert" data-cat="iot"><h4>Bootcamp en intelligence artificielle</h4><p>TDEV / NUFIA AI Camp</p><small>2025</small></div>
+          <div class="cert" data-cat="iot"><h4>AWS Essentials</h4><p>LeCloudFacile</p><small>2026</small></div>
+          <div class="cert" data-cat="web"><h4>Développement Web &amp; Numérique Responsable</h4><p>OIF / D-CLIC</p><small>2025 · 60 h</small></div>
+          <div class="cert" data-cat="web"><h4>Métiers du numérique</h4><p>Certification</p><small>Digital Valley</small></div>
+          <div class="cert" data-cat="data"><h4>Attestation de formation en Machine Learning</h4><p>Attestation</p><small>Université de LosAngeles et INSTI Lokossa</small></div>
+          <div class="cert" data-cat="web"><h4>Évaluation du niveau d'anglais</h4><p>Altissia</p><small>Attestation</small></div>
+          <div class="cert" data-cat="acad"><h4>Baccalauréat F3 &amp; Diplôme de technicien DT/EL</h4><p>Lycée technique de Pobè · Électrotechnique</p><small>2020 – 2023</small></div>
+          <div class="cert" data-cat="acad"><h4>Attestation en Électrotechnique et énergie renouvelable</h4><p>CeFore Sonon</p><small>Juin – juillet 2021</small></div>
+          <div class="cert" data-cat="acad"><h4>Licence en Génie électrique et informatique</h4><p>INSTI Lokossa · Électrotechnique &amp; Électronique</p><small>Soutenance en juillet 2026</small></div>
+          <div class="cert" data-cat="acad"><h4>Attestation de stage — YoupiLab</h4><p>Composants électroniques, IoT, systèmes embarqués</p><small>2025 et 2026</small></div>
+          <div class="cert" data-cat="acad"><h4>Attestation de stage — CBT</h4><p>Électrotechnique</p><small>Juillet – août 2024</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENGAGEMENT -->
+    <section class="section" id="engagement">
+      <div class="container">
+        <h2 class="section-title reveal"><span>07</span> Engagement &amp; communauté</h2>
+        <div class="cards two">
+          <article class="card reveal">
+            <span class="tag-line">Juin 2025 — Présent</span>
+            <h3>Ambassadeur YoupiLab</h3>
+            <p class="tl-org">YoupiLab · Godomey, Bénin</p>
+            <p>Promotion des composants et formations en électronique et systèmes embarqués, organisation d'événements pour démystifier l'électronique auprès des étudiants.</p>
+          </article>
+          <article class="card reveal">
+            <span class="tag-line">Avril 2026 — Présent</span>
+            <h3>Assistant Partenariats &amp; Staff organisateur</h3>
+            <p class="tl-org">Google Developer Group (GDG) Lomé, Togo</p>
+            <p>Co-organisation et logistique du NanaTech Tour 2026, programme de formation des jeunes femmes aux métiers du numérique (ProDigiT / GIZ). Plan de travail, stratégie de communication et analyse des candidatures.</p>
+          </article>
+          <article class="card reveal">
+            <span class="tag-line">Juin 2026 — Présent</span>
+            <h3>Ambassadeur universitaire EasyEDA &amp; JLCPCB</h3>
+            <p class="tl-org">INSTI Lokossa</p>
+            <p>Représentant officiel de plateformes de CAO et de fabrication de PCB : animation de workshops et promotion des offres étudiantes de JLCPCB.</p>
+            <a class="link" href="https://oshwlab.com/article/article_lmyumiql" target="_blank" rel="noopener">Lire mon article sur OSHWLab →</a>
+          </article>
+          <article class="card reveal">
+            <span class="tag-line">2025 — 2026</span>
+            <h3>Organisateur principal — Tech Campus Club</h3>
+            <p class="tl-org">Hyver Organization / INSTI Lokossa</p>
+            <p>Coordination de la communauté étudiante tech, ateliers internes et masterclasses avec des experts en IA, Web et cybersécurité.</p>
+          </article>
+          <article class="card reveal">
+            <span class="tag-line">2025 — 2026</span>
+            <h3>Coordinateur local — Forum 10 000 Codeurs</h3>
+            <p class="tl-org">Lokossa, Bénin · 2 éditions · <a href="https://10000codeurs.com/lokossa/" target="_blank" rel="noopener">10000codeurs.com ↗</a></p>
+            <p>Responsable d'ateliers sur les métiers du numérique, l'entrepreneuriat, les ODD et la posture professionnelle ; planification et partenariats.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal"><span>08</span> Contact</h2>
+        <div class="contact-grid">
+          <div class="reveal">
+            <p class="lead">Un projet IoT, une collaboration, une opportunité de stage ou d'emploi ? Écrivez-moi, je réponds avec plaisir.</p>
+            <ul class="contact-list">
+              <li>✉️ <a href="mailto:justekocou21@gmail.com">justekocou21@gmail.com</a></li>
+              <li>📞 <a href="tel:+2290152455117">+229 01 52 45 51 17</a></li>
+              <li>💼 <a href="https://www.linkedin.com/in/juste-kocou/" target="_blank" rel="noopener">linkedin.com/in/juste-kocou</a></li>
+              <li>🐙 <a href="https://github.com/Justekc24" target="_blank" rel="noopener">github.com/Justekc24</a></li>
+              <li>📍 BP 32 Abomey-Calavi, Bénin</li>
+            </ul>
+          </div>
+          <form class="form reveal" id="contactForm" novalidate>
+            <label>Nom<input type="text" id="name" required placeholder="Votre nom"></label>
+            <label>Email<input type="email" id="email" required placeholder="vous@exemple.com"></label>
+            <label>Message<textarea id="message" rows="5" required placeholder="Parlez-moi de votre projet…"></textarea></label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;width:0">
+            <button class="btn btn-primary" type="submit">Envoyer le message</button>
+            <p class="form-msg" id="formMsg" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Juste KOCOU — mis à jour : 23-12-2026.</p>
+      <a href="#accueil" class="to-top">↑ Haut de page</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
